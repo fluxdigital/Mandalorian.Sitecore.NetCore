@@ -1,5 +1,9 @@
 # MyProject
 
+This is a modified version of the Sitecore Getting Started Template as used here: https://doc.sitecore.com/developers/100/developer-tools/en/walkthrough--using-the-getting-started-template.html.
+
+I've added Bootstrap 4 and some custom css, placeholders and components. Feel free to fork and test.
+
 ## About this Solution
 This solution is designed to help developers learn and get started quickly
 with Sitecore Containers, the ASP.NET Core Rendering SDK, and Sitecore
