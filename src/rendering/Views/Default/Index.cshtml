@@ -1,0 +1,31 @@
+@model PageModel
+
+@{
+    ViewData["Title"] = Model.Title?.Value ?? string.Empty;
+}
+<main role="main">
+    <sc-placeholder name="myproject-main"></sc-placeholder>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <sc-placeholder name="myproject-container"></sc-placeholder>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <sc-placeholder name="myproject-container-col1"></sc-placeholder>
+            </div>
+            <div class="col-md-4">
+                <sc-placeholder name="myproject-container-col2"></sc-placeholder>
+            </div>
+            <div class="col-md-4">
+                <sc-placeholder name="myproject-container-col3"></sc-placeholder>
+            </div>
+        </div>
+
+    </div>
+</main>
+<br /><br /><br />
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark" style="color: #fff;">
+    &copy; @Model.CopyrightYear
+</nav>

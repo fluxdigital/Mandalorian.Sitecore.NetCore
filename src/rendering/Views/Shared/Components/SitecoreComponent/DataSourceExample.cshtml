@@ -1,0 +1,16 @@
+﻿@model MyProject.Models.DataSourceExampleModel
+
+<h2>Simple Rendering Example Test</h2>
+
+<div style="background-color: #f1f1f1; padding: 10px;">
+    <h3 asp-for="Title"></h3>
+    <sc-text asp-for="BodyText"></sc-text>
+    <div>
+        <sc-img asp-for="FeaturedImage" image-params="new { mw = 100, mh = 50 }" />
+    </div>
+    <p>
+        <a asp-for="PromoLink">My Link</a>
+    </p>
+    <p asp-for="ExampleDate" date-format="D"></p>
+    <sc-text asp-for="Summary"></sc-text>
+</div>

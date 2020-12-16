@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0dd80cb0-354b-425e-aa55-eb26c6f571fc</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..\..</DockerfileContext>
+    <RootNamespace>MyProject</RootNamespace>
+    <AssemblyName>MyProject</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Sitecore.AspNet.ExperienceEditor" Version="15.0.1" />
+    <PackageReference Include="Sitecore.AspNet.Tracking" Version="15.0.1" />
+    <PackageReference Include="Sitecore.AspNet.Tracking.VisitorIdentification" Version="15.0.1" />
+    <PackageReference Include="Sitecore.LayoutService.Client" Version="15.0.1" />
+    <PackageReference Include="Sitecore.AspNet.RenderingEngine" Version="15.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
+</Project>

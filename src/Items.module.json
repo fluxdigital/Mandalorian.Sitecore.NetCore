@@ -1,0 +1,36 @@
+{
+    "namespace": "Items",
+    "items" : {
+        "includes": [
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/MyProject",
+                "scope": "singleItem"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/MyProject"
+            },
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/MyProject"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/MyProject"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/MyProject"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/MyProject"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/MyProject"
+            }
+        ]
+    }
+}
