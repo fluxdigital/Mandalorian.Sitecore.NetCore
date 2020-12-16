@@ -1,4 +1,4 @@
-# MyProject
+# Mandalorian.Sitecore.NetCore
 
 This repo is an example/demo of a Sitecore .NET Core Rendering SDK. I presented this at the London Sitecore User Group & Pittsburgh SUG Recently: https://www.flux-digital.com/blog/building-components-in-sitecore-10-with-the-asp-net-rendering-sdk/.
 
