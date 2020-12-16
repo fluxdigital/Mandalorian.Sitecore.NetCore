@@ -1,8 +1,13 @@
 # MyProject
 
-This is a modified version of the Sitecore Getting Started Template as used here: https://doc.sitecore.com/developers/100/developer-tools/en/walkthrough--using-the-getting-started-template.html.
+This repo is an example/demo of a Sitecore .NET Core Rendering SDK. I presented this at the London Sitecore User Group & Pittsburgh SUG Recently: https://www.flux-digital.com/blog/building-components-in-sitecore-10-with-the-asp-net-rendering-sdk/.
 
-I've added Bootstrap 4 and some custom css, placeholders and components. Feel free to fork and test.
+It is a modified version of the Sitecore Getting Started Template provided by Sitecore as described here: https://doc.sitecore.com/developers/100/developer-tools/en/walkthrough--using-the-getting-started-template.html. 
+
+I've added Bootstrap 4 and some custom css, images, placeholders and components. Feel free to fork and test.
+
+
+![Alt text](assets/mandalorian-netcore-demo.png "Mandalorian .NET Core Demo")
 
 ## About this Solution
 This solution is designed to help developers learn and get started quickly
